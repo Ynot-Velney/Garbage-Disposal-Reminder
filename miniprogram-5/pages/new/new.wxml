@@ -3,6 +3,6 @@
 <view><button bindtap= "lookfor" class='rubbish'>康康垃圾多高</button> 
 </view>
 <view wx:if="{{device_name>30}}"><button bindtap="switchpage"class='map'>倒垃圾走吗</button>
-</view>
+</view>//当垃圾深度已经有30cm时，直接显示倒垃圾走吗的提醒
 <view wx:else>
-<button bindtap="switchpage1"class='map'>倒垃圾走吗</button></view>
+<button bindtap="switchpage1"class='map'>倒垃圾走吗</button></view>//如果没有30cm跳转的将是一个表扬保持宿舍整洁的界面

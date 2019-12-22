@@ -24,7 +24,7 @@ Page({
       }
 
     })
-  },
+  },//获取经度和纬度
   onLoad() {
    
       var _this = this;
@@ -51,7 +51,7 @@ Page({
           })
         }
       })
-      
+      //实时刷新我们的地理位置
     wx.getLocation({
       type: 'gcj02',
       success: (res) => {

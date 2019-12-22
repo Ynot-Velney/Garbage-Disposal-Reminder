@@ -23,7 +23,7 @@ style="width: 100%; height: 300px;"
 </view>
 <view wx:if="{{longitude-116.283415>0.0001}}" class="main">
 倒垃圾呀小傻瓜
-</view>
+</view>//走出寝室就会提醒我们倒垃圾，通过经纬度的改变来感知我们是否走出寝室
 <view wx:if="{{longitude-116.283415>0.0001}}">
 <button bindtap="GPSsubmit" type="primary" class="btn1" >刷新</button>
 </view>

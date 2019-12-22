@@ -2,7 +2,7 @@ Page({
   data: {
     device_name: 32 ,
   },
-  
+  //调用onenetapi获取arduino测得数据
   onLoad: function (options) {
     var _this = this;
     //console.log(options.device_id);// 打印设备ID
@@ -18,7 +18,7 @@ Page({
           {
             device_name: res.data.data.datastreams[0].datapoints[0].value,
 
-          });
+          });//实时更新数据
       },
       fail: function () {
         wx.showToast({
@@ -32,18 +32,18 @@ Page({
   lookfor:function(){
     wx.navigateTo
    ({
-      url: '../case/case',   //注意switchTab只能跳转到带有tab的页面，不能跳转到不带tab的页面
+      url: '../case/case',   //跳转界面
     })
   },
  
   switchpage: function () {
     wx.navigateTo({
-      url: '../index/index',
+      url: '../index/index',//跳转界面
     })
   },
   switchpage1: function () {
     wx.navigateTo({
-      url: '../clean/clean',
+      url: '../clean/clean',//跳转界面
     })
   },
 

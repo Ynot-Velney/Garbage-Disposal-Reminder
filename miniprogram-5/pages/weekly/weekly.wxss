@@ -1,0 +1,10 @@
+
+.banner{
+  width:700rpx;
+  height:700rpx;
+}
+.banner2{
+  width:650rpx;
+  height:750rpx;
+}
+

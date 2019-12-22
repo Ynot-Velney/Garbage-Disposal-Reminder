@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/new/new",
+    "pages/index/index",
+    "pages/weekly/weekly",
+    "pages/logs/logs",
+    "pages/case/case",
+    "pages/clean/clean"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

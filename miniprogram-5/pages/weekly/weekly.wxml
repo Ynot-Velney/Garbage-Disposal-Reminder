@@ -1,0 +1,8 @@
+<view class="container">
+<text class="info">近期垃圾桶清空时间</text>
+<image src="/images/2.jpg" class="banner"></image>
+<text>2019.12.18  13:42</text>
+<text>2019.12.19  19:37</text>
+<text>2019.12.21  08:12</text>
+<text class="ziti">近日产出垃圾有所减少喔</text>
+</view>

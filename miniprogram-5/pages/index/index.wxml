@@ -1,0 +1,33 @@
+
+
+<view wx:if="{{longitude-116.283415<=0.0001}}">
+<map id="map"
+longitude="{{longitude}}"
+latitude="{{latitude}}"
+scale="14"
+markers="{{markers}}"
+bindmarkertap="markertap"
+bindregionchange="regionchange"
+show-location
+style="width: 100%; height: 300px;"
+>
+</map>
+</view>
+<view wx:if="{{longitude-116.283415<=0.0001}}">
+<button bindtap="GPSsubmit" type="primary" class="btni" >获取地理位置</button>
+</view>
+<view class="main">维度：{{latitude}} </view>
+<view class="main">经度：{{longitude}}</view>
+<view wx:if="{{longitude-116.283415>0.0001}}">
+<image src="/images/dalao.jpg" class="banner2"></image>
+</view>
+<view wx:if="{{longitude-116.283415>0.0001}}" class="main">
+倒垃圾呀小傻瓜
+</view>
+<view wx:if="{{longitude-116.283415>0.0001}}">
+<button bindtap="GPSsubmit" type="primary" class="btn1" >刷新</button>
+</view>
+  <view class="main">
+<navigator url='/pages/weekly/weekly' hover-class="nav" class="default">点我查看倒垃圾桶频率</navigator>
+  </view>
+

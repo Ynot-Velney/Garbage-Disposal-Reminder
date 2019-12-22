@@ -1,0 +1,6 @@
+<!--pages/case/case.wxml-->
+<view class="word1">BUPT Dotmitory Rubbish </view>
+<view class="word2">滴深度是👇</view>
+<image class="rubbish1" src="/images/r1.jpg"></image>
+<view class="rubbish">{{device_name}}cm</view>
+<image class="rubbish2" src="/images/r2.jpg"></image>

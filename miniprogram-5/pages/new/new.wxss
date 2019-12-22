@@ -1,0 +1,30 @@
+.alarm{
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;margin-bottom:20px;
+  color:rgb(59, 53, 15);
+  font-weight:bold;
+  font-family:cursive;
+}
+.rubbish{
+  font-size: 20px;
+  font-weight: 3000;
+  margin:20px;
+  color:rgb(59, 53, 15);
+   font-family:cursive;
+}
+.map{
+font-size:20px;
+ font-weight: bold;
+    color:rgb(59, 53, 15);
+    font-family:cursive;
+}
+.rc{
+  align-items: center;
+  margin-top: 10px;
+  height:280px;
+  width:280px;
+  display:flex;                   
+ justify-content: center;
+ margin-left: 40px;
+}

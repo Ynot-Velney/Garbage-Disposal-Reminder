@@ -1,0 +1,45 @@
+/* pages/case/case.wxss */
+.rubbish{
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+   color:rgb(192, 237, 255);
+   font-weight:bold;
+   font-size: 25px; 
+}
+.word1{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:rgb(192, 237, 255);
+   font-weight:bold;
+   font-size: 25px; 
+}
+.word2{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:rgb(192, 237, 255);
+   font-weight:bold;
+   font-size: 25px; 
+}
+.rubbish1{
+  align-items: center;
+  margin-top: 20px;
+  height:280px;
+  width:280px;
+  display:flex;                   
+ justify-content: center;
+ margin-left: 40px;
+}
+.rubbish2{
+  align-items: center;
+  margin-top: 20px;
+  height:280px;
+  width:280px;
+  display:flex;                   
+ justify-content: center;
+ margin-left: 40px;
+}

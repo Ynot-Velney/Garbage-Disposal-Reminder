@@ -1,0 +1,28 @@
+/* pages/clean/clean.wxss */
+.biaoyang{
+ margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:pink;
+   font-weight:bold;
+   font-size: 25px;
+}
+.girl{
+  align-items: center;
+  margin-top: 20px;
+  height:280px;
+  width:280px;
+  display:flex;                   
+ justify-content: center;
+ margin-left: 40px;
+}
+.comeon{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color:pink;
+   font-weight:bold;
+   font-size: 25px;
+}
